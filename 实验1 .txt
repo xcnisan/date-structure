@@ -5,7 +5,7 @@ int search(int key,int a[],int longth)
 		int low=0;
 		int high=longth-1;
 		
-		while(high>low)
+		while(high>=low)
 		{
 			int mid = low+high/2;
 			if(a[mid] == key)
